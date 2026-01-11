@@ -917,7 +917,7 @@ cursor: pointer;
 .links a{
   position: relative;
   gap: 10px;
-  color: rgb(55, 55, 56);
+  color: rgb(106, 106, 109);
   text-decoration: none;
   cursor: pointer;
   top: 10px;
@@ -953,7 +953,7 @@ cursor: pointer;
 .sb a{
   position: relative;
   text-decoration: none;
-  color: rgb(51, 51, 54);
+  color: rgb(88, 88, 90);
   flex: auto;
   cursor: pointer;
   top: 5px;
@@ -990,7 +990,7 @@ cursor: pointer;
   cursor: pointer;
   text-decoration: none;
   gap: 5px;
-  color: rgb(48, 49, 51);
+  color: rgb(116, 117, 121);
 }
 .media a:hover{
   position: relative;

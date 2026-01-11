@@ -36,8 +36,8 @@ function Footer(){
     <div className='form'>
         <form action="">
             <div className='fr'>
-                <h1>Stay up to date with Ebcodes news</h1>
-                <input type="text"  id="form" required />
+                <h1>Stay up to date with Ebcodes news,add your 📩</h1>
+                <input type="text"  id="email" required placeholder='Email' />
                 <button type='submit'>--▶</button>
             </div>
         </form>

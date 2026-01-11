@@ -12,7 +12,7 @@ function Product(){
             foods needed in the hospital.</p>
         </div>
         <div className='p1'>
-            <img src="" alt="product1" />
+            <img src="src/assets/image/p1.jpeg" alt="product1" />
             <p>
                 this image show us all materials <br />
                 that can be used in the different <br />
@@ -21,7 +21,7 @@ function Product(){
             </p>
         </div>
         <div className='p2'>
-            <img src="" alt="product2" />
+            <img src="src/assets/image/p2.jpeg" alt="product2" />
             <p>
                 this is image show us some <br />
                 foods store in the nutriton <br />

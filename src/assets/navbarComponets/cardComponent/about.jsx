@@ -88,7 +88,7 @@ function About(){
     </div>
     <div className='c5'>
         <a href="#footer">
-            <button type='click-down'>🔻 </button>
+            <button type='click-down'>🇧evariste🍁 leaf</button>
         </a>
     </div>
     <div className='c6'>

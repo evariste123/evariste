@@ -1,16 +1,17 @@
 body{
   background-color: #030303;
+  margin: none;
 }
 .navbar{
   position: relative;
   height: 150px;
-  width: 152px;
+  width: 100px;
   border-radius: 90px 0 90px 0;
   background-color: transparent;
   box-shadow: 10px 10px  white;
   color: rgb(253, 251, 251);
   justify-self: center;
-  top: 35px;
+  top: 40px;
   animation-duration: 3s;
   animation-timing-function: 300ms;
   animation-name: react;
@@ -20,7 +21,7 @@ body{
 @keyframes react{
   from{
     padding-bottom:10px;
-    margin-left: 20px;
+    margin-left: 10px;
     translate:30px;
     border-radius: 60px 0 60px 0 60px ;
     border-left: 20px solid rgb(0, 92, 128);
@@ -29,7 +30,7 @@ body{
   }
   to{
     padding-bottom:10px;
-    margin-left: 20px;
+    margin-left: 10px;
     translate:30px;
     border-radius: 60px 0 60px 0 60px ;
     border-left: 5px solid rgb(0, 92, 128);
@@ -52,7 +53,7 @@ body{
 }
 @keyframes ev{
   from{
-    transform:translate(30px);
+    transform:translate(20px);
   }
   to{
     transform: translateY(0px);
@@ -61,61 +62,64 @@ body{
 .menu{
   position: fixed;
   width: auto;
-  top: 20px;
-  width: 90vw;
-  flex: auto;
-  justify-items: center;
+  top: 0px;
+  width: 100vw;
+  padding: 8px;
+  display: -ms-flexbox;
+justify-items: end;
   justify-self: center;
-  border-radius: 40px 0 40px 0;
-  border-left: 10px solid wheat;
-  border-right: 10px solid wheat;
+  background-color: rgb(23, 31, 31);
 }
 .bar{
-  gap:40px;
-  display: flex;
+  display: -ms-flexbox;
+  gap: 10px;
 }
 .bar a{
   position: relative;
   text-decoration: none;
-  font-size: 20px;
+  font-size: medium;
+  justify-self: right;
+  font-weight: 500;
   flex: auto;
-  font-weight: 900;
+  margin-left: 10px;
+  color: rgb(207, 204, 204);
   font-style: italic;
   cursor: pointer;
   transition: all ease-in 0.3s;
 }
 .bar a:hover{
+  border-radius: 5px;
   position: relative;
-  color: black;
+  color: rgb(99, 96, 96);
   transform: translateY(4px);
   padding-left: 4px;
 }
 .bar button{
   position: relative;
-  width: 10vw;
+  width: 11vw;
   height: 6vh;
   flex-direction: column;
   border: 1px solid transparent;
-  color: white;
-  background-color: orange;
+  color: rgb(165, 163, 163);
+ text-transform: capitalize;
+ background-color: rgb(30, 36, 36);
   border-radius: 5px;
-  font: 20px bold;
+  font: bold;
   cursor: pointer;
   transition: all ease-in 0.3s;
 }
 .bar button:hover{
   position: relative;
-  background: linear-gradient(to right,rgb(14, 14, 73),#310731,#063a3a);
-  border: 1px solid blue;
+background-color: rgb(31, 31, 32);
+  border: 1px solid  rgb(31, 31, 32);
   border-radius: none;
 }
 .card{
   position: relative;
   text-align: center;
-  width: 90vw;
+  width: 100vw;
   height: 120vh;
   justify-self: center;
-  border-radius: 10px 0 10px 0;
   background-color: whitesmoke;
   top: 40px;
 }
@@ -132,7 +136,7 @@ body{
   height: 8vh;
   border-radius: 5px;
   border: 1px solid transparent;
-  background-color: #0000ff;
+  background-color: #050524;
   color: white;
   font: 20px bold;
   font-weight: 900;
@@ -141,10 +145,10 @@ body{
 .card button:hover{
   position: relative;
   transition: all ease-in 0.3s;
-  background-color: white;
+  background-color: rgb(224, 207, 207);
   color: black;
   border-radius: none;
-  border: 5px solid white;
+  border: 0px solid rgb(207, 184, 184);
 }
 #contact.card1{
   position: relative;
@@ -219,9 +223,6 @@ body{
   width: auto;
   top: 80px;
   height: auto;
-  border-radius: 0 0 50px 50px;
-  border-left: 10px solid wheat;
-  border-right: 10px solid wheat;
   background-color: transparent;
 }
 .about h1{
@@ -241,14 +242,11 @@ body{
 }
 .skill{
   position: relative;
-  width: 80vw;
+  width: 100vw;
   height: auto;
   top: 100px;
   justify-self: center;
-  border-radius: 30px;
-  border-left: 3px solid blue;
-  border-right: 3px solid orangered;
-  background: linear-gradient(to right,rgb(160, 111, 160),rgb(110, 145, 110));
+  background: linear-gradient(to right,white,skyblue);
 }
 .skill h1{
   position: relative;
@@ -382,13 +380,11 @@ body{
 }
 .card8{
   position: relative;
-  width: auto;
-  top: 100px;
+  width: 100vw;
+  top: 75px;
+  justify-self: center;
   height: auto;
   background-color: whitesmoke;
-  border-radius: 100px 0 100px 0;
-  border-left: 10px solid blue;
-  border-right: 10px solid orange;
 }
 .card8 h1{
   position: relative;
@@ -459,13 +455,14 @@ body{
 .c5{
   position: fixed;
   justify-self: left;
-  top:10px;
+  top:15px;
 }
 .c5 button{
   position: fixed;
   background-color: transparent;
   border: none;
   font-size: 20px;
+  color: wheat;
   cursor: pointer;
 }
 .c6{
@@ -473,9 +470,6 @@ body{
   width: auto;
   height: 5vw;
   top: 80px;
-  border-left: 10px solid rgb(9, 3, 44);
-  border-right: 10px solid rgb(37, 25, 3);
-  border-radius: 0 50px 0 50px;
   background-color:transparent;
 }
 .c6 h3{
@@ -483,22 +477,9 @@ body{
   font-size: 35px;
   top: 5px;
   color: purple;
-  text-shadow: 15px 15px  white;
+  text-shadow: 15px 15px  rgb(20, 19, 19);
   text-transform: capitalize;
   font-style: italic;
-  animation-duration: 3s;
-  animation-name: eva;
-  animation-timing-function: 300ms;
-  animation-delay: 10s;
-  animation-iteration-count: infinite;
-}
-@keyframes eva{
-  from{
-    transform:translate(40px);
-  }
-  to{
-    transform: translateY(0px);
-  }
 }
 .c6 h3:hover{
   position: relative;
@@ -510,7 +491,8 @@ body{
 #service.service{
   position: relative;
   background-color: rgb(161, 206, 226);
-  width: auto;
+  width: 100vw;
+  justify-self: center;
   top: 130px;
   height: auto;
 }
@@ -523,33 +505,6 @@ cursor: pointer;
   position: relative;
   text-align: center;
   color: rgb(3, 32, 49);
-  animation-timing-function: 300ms;
-  animation-duration: 10s;
-  animation-name: animation;
-  animation-delay: 5s;
-  animation-iteration-count: infinite;
-}
-@keyframes animation{
-  from{
-    color: white;
-    padding-bottom:10px;
-    margin-left: 20px;
-    translate:30px;
-    border-radius: 60px 0 60px 0 60px ;
-    border-left: 5px solid rgb(0, 92, 128);
-    border-right: 5px solid orangered;
-    background: linear-gradient(to right,purple,orange,blue);
-  }
-  to{
-    color: green;
-   padding-bottom: 10px;
-    margin-left: 20px;
-    translate: -30px;
-    border-left: 5px solid rgb(0, 92, 128);
-    border-right: 5px solid orangered;
-    border-radius: 60px 0 60px 0;
-    background: linear-gradient(to right,purple,orange,blue);
-  }
 }
 .save{
   position: relative;
@@ -697,6 +652,7 @@ cursor: pointer;
   color: white;
   font-weight: 900;
   font-size: 20px;
+  bottom: 10px;
   margin-left: 10px;
   text-transform: capitalize;
   border: 1px solid transparent;
@@ -719,6 +675,7 @@ cursor: pointer;
   color: white;
   font-weight: 900;
   font-size: 20px;
+  bottom: 10px;
   text-transform: capitalize;
   margin-left: 10px;
   border: 1px solid transparent;
@@ -741,12 +698,12 @@ cursor: pointer;
 }
 #product.container{
   position: relative;
-  width: auto;
+  width: 100vw;
   height: auto;
   color: black;
+  justify-self: center;
   flex-direction: column;
   top: 100px;
-  border-radius: 0 0 10px 10px;
   background-size: cover;
   background-color:whitesmoke;
 }
@@ -917,7 +874,7 @@ cursor: pointer;
 .links a{
   position: relative;
   gap: 10px;
-  color: rgb(106, 106, 109);
+  color: rgb(179, 179, 182);
   text-decoration: none;
   cursor: pointer;
   top: 10px;
@@ -953,7 +910,7 @@ cursor: pointer;
 .sb a{
   position: relative;
   text-decoration: none;
-  color: rgb(88, 88, 90);
+  color: rgb(165, 165, 167);
   flex: auto;
   cursor: pointer;
   top: 5px;
@@ -990,7 +947,7 @@ cursor: pointer;
   cursor: pointer;
   text-decoration: none;
   gap: 5px;
-  color: rgb(116, 117, 121);
+  color: rgb(175, 175, 177);
 }
 .media a:hover{
   position: relative;
@@ -1019,6 +976,8 @@ cursor: pointer;
   position: relative;
   top: 20px;
   width: 30vw;
+  color:white;
+  font-size:20px;
   height: 6vh;
   background-color: #01010e;
   border-radius: 5px;

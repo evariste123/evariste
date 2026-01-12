@@ -15,45 +15,24 @@ function About(){
         <h1> technology i use to make website/webpage: 👇</h1>
         <div className='card0'>
             <h2>HTML5</h2>
-            <input type="range"/>
-            <br />
-            <b>scroll-left until 90%</b>
         </div>
         <div className='card2'>
             <h2>CSS</h2>
-            <input type="range" />
-            <br />
-            <b>scroll-left until 85%</b>
         </div>
         <div className='card3'>
             <h2>React js</h2>
-            <input type="range" />
-            <br />
-            <b>scroll-left until 83%</b>
         </div>
         <div className='card4'>
             <h2>Node js</h2>
-            <input type="range"/>
-            <br />
-            <b>scroll-left until 85%</b>
         </div>
         <div className='card5'>
-            <h2>javascript(js)</h2>
-            <input type="range" />
-            <br />
-            <b>scroll-left until 70%</b>
+            <h2>javaS</h2>
         </div>
         <div className='card6'>
             <h2>C++</h2>
-            <input type="range" />
-            <br />
-            <b>scroll-left until 75%</b>
         </div>
         <div className='card7'>
             <h2>C#</h2>
-            <input type="range" />
-            <br />
-            <b>scroll-left until 80%</b>
         </div>
     </div>
     <div className='card8'>

@@ -254,118 +254,111 @@ background-color: rgb(31, 31, 32);
 }
 .card0{
   position: relative;
-  width: 60vw;
-  height: 15vh;
-  background-color: whitesmoke;
+  width: 20vw;
+  height: 20vh;
+  margin-left: 10px;
+  background-color: rgb(145, 141, 141);
   border-radius: 20px;
-  justify-self: center;
+  top: 0px;
+  justify-self: left;
   border-left:3px solid green;
 }
 .card0 h2{
-  color: blue;
+  color: rgb(248, 150, 38);
   position: relative;
   font-style: italic;
-}
-.card0 input{
-  position: relative;
-  width: 55vw;
+  top: 40px;
 }
 .card2{
-  position: relative;
-  width: 60vw;
-  height: 15vh;
-  background-color: whitesmoke;
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgb(117, 101, 101);
   border-radius: 20px;
   justify-self: center;
+  top:60px;
   border-left:3px solid rgb(245, 63, 8);
 }
 .card2 h2{
-    color: blue;
+    color: rgb(163, 3, 11);
   position: relative;
   font-style: italic;
-}
-.card2 input{
-  position: relative;
-  width: 50vw;
+  top: 20px;
 }
 .card3{
-   position: relative;
-  width: 60vw;
-  height: 15vh;
-  background-color: whitesmoke;
+   position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgb(131, 92, 133);
   border-radius: 20px;
-  justify-self: center;
+  justify-self: right;
+  margin-right: 10px;
+  top: 60px;
   border-left:3px solid rgb(3, 186, 241);
 }
 .card3 h2{
-  color: blue;
+  color: rgb(253, 248, 253);
   position: relative;
   font-style: italic;
-}
-.card3 input{
-  position: relative;
-  width: 45vw;
+  top: 20px;
 }
 .card4{
    position: relative;
-  width: 60vw;
-  height: 15vh;
+  width: 20vw;
+  height: 20vh;
   background-color: whitesmoke;
   border-radius: 20px;
+  top: 20px;
   justify-self: center;
+  transform: translate(-150%,20px);
   border-left:3px solid rgb(247, 2, 63);
 }
 .card4 h2{
-   color: blue;
+   color: rgb(29, 3, 51);
   position: relative;
   font-style: italic;
-}
-.card4 input{
-  position: relative;
-  width: 40vw;
+  top: 40px;
 }
 .card5{
-     position: relative;
-  width: 60vw;
-  height: 15vh;
+ position: absolute;
+  width: 20vw;
+  height: 20vh;
   background-color: whitesmoke;
   border-radius: 20px;
   justify-self: center;
+  top: 230px;
+  transform: translate(150%);
   border-left:3px solid rgb(201, 3, 250);
 }
 .card5 h2{
-  color: blue;
+  color: rgb(3, 29, 39);
   position: relative;
   font-style: italic;
-}
-.card5 input{
-  position: relative;
-  width: 35vw;
+  top: 20px;
 }
 .card6{
-    position: relative;
-  width: 60vw;
-  height: 15vh;
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
   background-color: whitesmoke;
   border-radius: 20px;
   justify-self: center;
+  top: 240px;
   border-left:3px solid rgb(25, 1, 247);
 }
 .card6 h2{
-  color: blue;
+  color: rgb(3, 3, 22);
   position: relative;
   font-style: italic;
-}
-.card6 input{
-  position: relative;
-  width: 30vw;
+  top: 20px;
 }
 .card7{
-      position: relative;
-  width: 60vw;
-  height: 15vh;
-  background-color: whitesmoke;
+  position: relative;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgb(241, 233, 243);
   border-radius: 20px;
+  top: 0px;
   justify-self: center;
   border-left:3px solid rgb(252, 227, 2);
 }
@@ -373,10 +366,7 @@ background-color: rgb(31, 31, 32);
   color: blue;
   position: relative;
   font-style: italic;
-}
-.card7 input{
-  position: relative;
-  width: 25vw;
+  top: 40px;
 }
 .card8{
   position: relative;
@@ -625,9 +615,9 @@ cursor: pointer;
 .page4 input{
   position: relative;
   width: 25vw;
-  background-color: rgb(118, 118, 233);
+  background-color: rgb(238, 238, 250);
   height: 8vh;
-  color: white;
+  color: rgb(10, 10, 10);
   border: none;
   cursor: pointer;
   border-radius: 10px;
